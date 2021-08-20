@@ -1,0 +1,219 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <title>Title</title>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS v5.0.2 -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+    integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+    crossorigin="anonymous" />
+
+
+</head>
+
+<body class="debug">
+
+  <style>
+    /* This is for wire framing to see our rows/columns */
+    body.debug .container,
+    body.debug .container-fluid {
+      outline: 2px double blue;
+      outline-offset: -2px;
+    }
+
+    body.debug .row {
+      outline: 2px dashed red;
+      outline-offset: -2px;
+    }
+
+    body.debug [class*="col-"] {
+      outline: 2px dotted forestgreen;
+      outline-offset: -3px;
+    }
+  </style>
+
+
+
+  <header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col text-start">
+          <!-- // place icon here before title of page // -->
+          <h3>Lorem Ipsum</h3>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <div class="container-fluid">
+      <div class="row px-5 pt-3 mb-5">
+        <h5>Subtle Heading</h5>
+        <!-- background image will go here -->
+        <div class="col-md-4 px-5 py-3">
+          <p>Less Subtle Heading</p>
+          <form>
+            <label for="Name" class="form-label"></label>
+            <input type="Name" class="form-control" placeholder="Name">
+
+            <label for="exampleInputEmail1" class="form-label"></label>
+            <input type="email" class="form-control" placeholder="Email">
+
+            <label for="exampleInputphonenumber1" class="form-label"></label>
+            <input type="phonenumber" class="form-control" placeholder="Phone Number">
+
+            <label for="examplemessage" class="form-label"></label>
+            <input type="message" class="form-control" placeholder="Message">
+
+            <input type="checkbox" class="form-check-input" id="exampleCheck1">
+            <label class="form-check-label" for="exampleCheck1">By checking this box I agree to the terms of Lorem
+              Ipsum</label>
+            <button type="submit" class="btn btn-primary">Submit</button>
+          </form>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col  text-left pt-3 ps-5">
+              <!-- there needs to be a left side border next to this text, but only take up the amount of space that the text takes -->
+              <h5>Text over image</h5>
+              <p>Lorem ipsum dolor sit amet.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row bg-custom text-light">
+        <div class="col-md-5 py-5 px-5">
+          <div class="row py-2">
+            <div class="col">
+              <h5>Lorem ipsum dolor sit amet.</h5>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col">
+              <h5>Lorem, ipsum dolor.</h5>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum, illo! Nihil ex reiciendis id odit
+                incidunt,
+                earum sint perspiciatis obcaecati delectus ipsam suscipit temporibus laboriosam excepturi officia
+                voluptas
+                assumenda nemo!</p>
+            </div>
+          </div>
+        </div>
+        <!-- This card needs to spill downwards -->
+        <div class="col-md-7 px-5 py-5 text-dark">
+          <div class="card px-3 py-2">
+            <div class="card-body">
+              <!-- icon needs to go to the left of each phrase -->
+              <p class="card-text">phrase</p>
+              <p class="card-text">phrase</p>
+              <p class="card-text">phrase</p>
+              <p class="card-text">phrase</p>
+              <p class="card-text">phrase</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 py-5 text-center">
+          <img class=""
+            src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObRQmT9KcdIEId9YefmEzB09_-W7-Hd2InQ&usqp=CAU"
+            alt="packers">
+        </div>
+        <div class="col-md-8 px-5 py-5 text-left">
+          <div class="row py-2">
+            <div class="col">
+              <h5>
+                Lorem ipsum dolor sit amet
+              </h5>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col">
+              <h5>
+                Lorem ipsum dolor sit amet
+              </h5>
+            </div>
+          </div>
+          <div class="row py-2">
+            <div class="col">
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod architecto labore, qui provident dicta
+                laboriosam ullam alias, voluptas tenetur sequi distinctio quis sapiente eaque, dolor minus reprehenderit
+                enim ab exercitationem?</p>
+            </div>
+          </div>
+
+          <div class="row py-2">
+            <div class="col1 text-end"><button>More</button></div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row p-5 align-items-center">
+        <div class="col-md-4 text-center">
+          <div class="card  reviews">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <div class="card reviews">
+            <div class="card-body">
+              <h5><i class="fas fa-star"></i> <i class="fas fa-star"></i> <i class="fas fa-star"></i></h5>
+              <h5> </h5>
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-4 text-center">
+          <div class="card reviews">
+            <div class="card-body">
+              <h5 class="card-title">Card title</h5>
+              <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's
+                content.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="row">
+        <div class="col">
+
+        </div>
+      </div>
+
+    </div>
+  </main>
+
+  <footer>
+
+  </footer>
+
+
+</body>
+
+</html>

@@ -1,3 +1,7 @@
+:root{
+    scroll-behavior: smooth;
+  }
+
 .bg-img{
     background-image: url("./background\ image.jpg");
     background-size: cover;
@@ -34,6 +38,7 @@
     box-shadow: 0px 0px 12px #213D30;
 }
 
-.spill{
-    bottom: -650px;
-}
+
+.spill {
+    bottom:-450px;
+ }

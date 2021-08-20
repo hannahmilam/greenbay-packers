@@ -17,6 +17,11 @@
    border: none;
 }
 
+.button-color:hover{
+    background-color: #2363458f;
+    border: none;
+}
+
 .form-color{
     background-color: #c5bfbf98;
 }

@@ -1,7 +1,21 @@
-.bg-custom{
+.bg-green{
     background-color: #213D30;
 }
 
-.reviews{
+.bg-yellow{
+    background-color: #f4ac14;
+}
+
+.form-color{
+    background-color: #c5bfbf98;
+}
+
+.bg-img{
+    background-image: url("./background\ image.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.green-shadow{
     box-shadow: 0px 0px 12px #213D30;
 }

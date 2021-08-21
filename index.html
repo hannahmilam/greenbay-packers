@@ -15,6 +15,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
     integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
     crossorigin="anonymous" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
 
 
 </head>
@@ -42,12 +45,11 @@
 
 
 
-  <header class="bg-green">
+  <header>
     <div class="container-fluid">
-      <div class="row py-1">
-        <div class="col text-start">
-          <h2 class="btn text-light"><i class="fas fa-football-ball"></i> Green Bay Packers Fan Site</h2>
-          </a>
+      <div class="row header-img py-5">
+        <div class="col text-start nfl-font">
+          <h2 class="yellow-text"> <i class="fas fa-football-ball"></i> GREEN BAY PACKERS FAN PAGE</h2>
         </div>
       </div>
     </div>
@@ -55,10 +57,10 @@
 
   <main>
     <div class="container-fluid">
-      <div class="row p-5 bg-img text-light">
-        <h5>Subtle Heading</h5>
+      <div class="row p-5 bg-img custom-text">
+        <h5><b>GO PACK GO!</b></h5>
         <div class="col-md-4 px-5 py-3 mb-4 form-color green-shadow rounded">
-          <p>Less Subtle Heading</p>
+          <p class="text-dark">Join our newsletter by filling out the following information</p>
           <form>
             <label for=" Name" class="form-label"></label>
             <input type="Name" class="form-control" placeholder="Name">
@@ -72,18 +74,18 @@
             <label for="examplemessage" class="form-label"></label>
             <textarea class="form-control" placeholder="Message" id="floatingTextarea" style="height:100px"></textarea>
 
-            <input type="checkbox" class="form-check-input button-color" id="exampleCheck1">
+            <input type="checkbox" class="form-check-input button-color mt-2" id="exampleCheck1">
             <label class="form-check-label" for="exampleCheck1">By checking this box I agree to the terms
-              of Lorem
-              Ipsum</label>
-            <button type="submit" class="btn button-color">Submit</button>
+              of Green Bay Packers fan site</label>
+
+            <button type="submit" class="btn button-color text-light mt-2">Submit</button>
           </form>
         </div>
         <div class="col-md-8 text-left pt-3 ps-5">
 
           <!-- there needs to be a left side border next to this text, but only take up the amount of space that the text takes -->
-          <h5>Text over image</h5>
-          <p>Lorem ipsum dolor sit amet.</p>
+          <h1 class="nfl-text yellow-text">Text over image</h1>
+          <p class="large nfl-text yellow-text">Lorem ipsum dolor sit amet.</p>
 
         </div>
       </div>
@@ -112,14 +114,19 @@
 
         <!-- This card needs to spill downwards -->
         <div class="col-md-7 px-5 py-5 text-dark d-flex justify-content-center">
-          <div class="card px-3 py-2 position-absolute spill">
-            <div class="card-body">
+          <div class="card px-3 py-2 position-absolute spill form-color green-shadow">
+            <div class="card-body custom-text">
               <!-- icon needs to go to the left of each phrase -->
-              <h5 class="card-text pb-3"><i class="fas fa-star"></i> Lorem ipsum dolor sit amet.</h5>
-              <h5 class="card-text pb-3"><i class="fas fa-running"></i> Lorem ipsum dolor sit amet.</h5>
-              <h5 class="card-text pb-3"><i class="fas fa-football-ball"></i> Lorem ipsum dolor sit amet.</h5>
-              <h5 class="card-text pb-3"><i class="fas fa-bolt"></i> Lorem ipsum dolor sit amet.</h5>
-              <h5 class="card-text pb-3"><i class="fas fa-bolt"></i> Lorem ipsum dolor sit amet.</h5>
+              <h5 class="card-text pb-3"><i class="fas fa-star"></i>
+                Lorem ipsum dolor sit amet.</h5>
+              <h5 class="card-text pb-3"><i class="fas fa-running"></i>
+                Lorem ipsum dolor sit amet.</h5>
+              <h5 class="card-text pb-3"><i class="fas fa-football-ball"></i>
+                Lorem ipsum dolor sit amet.</h5>
+              <h5 class="card-text pb-3"><i class="fas fa-bolt"></i>
+                Lorem ipsum dolor sit amet.</h5>
+              <h5 class="card-text pb-3"><i class="fas fa-bolt"></i>
+                Lorem ipsum dolor sit amet.</h5>
             </div>
           </div>
         </div>
@@ -128,9 +135,15 @@
       <!-- Third row (with white background) starts here -->
       <div class="row">
         <div class="col-md-4 py-5 text-center">
-          <img class=""
+
+          <video width="450" height="350" controls autplay>
+            <source src="" type="video/mp4">
+            <source src="" type="video/ogg">
+          </video>
+          <!-- <img class=""
             src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRObRQmT9KcdIEId9YefmEzB09_-W7-Hd2InQ&usqp=CAU"
-            alt="packers">
+            alt="packers"> -->
+          <video src="" alt=""></video>
         </div>
         <div class="col-md-8 px-5 py-5 text-left mt-5">
           <div class="row py-2">
@@ -215,13 +228,7 @@
   </main>
 
   <footer>
-    <div class="container-fluid">
-      <div class="row">
-        <div class="col text-center p-3">
-          <h5>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h5>
-        </div>
-      </div>
-    </div>
+
   </footer>
 
 

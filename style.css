@@ -2,6 +2,12 @@
     scroll-behavior: smooth;
   }
 
+ .header-img{
+     background-image: url("https://static.clubs.nfl.com/image/private/packers/jfw32jbeg6ay5rbjp1js");
+     background-size: cover;
+     background-repeat: no-repeat;
+ }
+  
 .bg-img{
     background-image: url("https://cdn.vox-cdn.com/thumbor/pk5gp5jryCMb2MyESxT9jqKHDvk=/50x0:3946x2597/1200x800/filters:focal(50x0:3946x2597)/cdn.vox-cdn.com/uploads/chorus_image/image/38934850/455462974.0.jpg");
     background-size: cover;
@@ -15,6 +21,19 @@
 
 .bg-yellow{
     background-color: #f4ad14e7;
+}
+
+.nfl-font{
+    font-family: 'Oswald', sans-serif;
+  }
+
+.custom-text{
+   color: #213d30;
+   font-family: 'Oswald', sans-serif;
+}
+
+.yellow-text{
+   color: #f4ad14e7;
 }
 
 .button-color{
@@ -41,5 +60,5 @@
 
 
 .spill {
-    bottom:-450px;
+    bottom:-485px;
  }

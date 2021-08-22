@@ -66,3 +66,10 @@
 .spill {
     bottom:-580px;
  }
+
+ 
+ @media only screen and (max-width: 768px) {
+     .hidden-text {
+       display: none;
+     }
+ }

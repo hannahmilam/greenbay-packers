@@ -2,11 +2,20 @@
     scroll-behavior: smooth;
   }
 
+header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+}
 
  .header-img{
      background-image: url("https://static.clubs.nfl.com/image/private/packers/jfw32jbeg6ay5rbjp1js");
      background-size: cover;
      background-repeat: no-repeat;
+ }
+
+ .custom-margin{
+     margin-top: 100px;
  }
   
 .bg-img{
@@ -67,7 +76,7 @@
 @media only screen and (min-width: 768px) {
     .spill {
         position: absolute;
-        bottom: -615px;
+        bottom: -570px;
      }
 }
 
